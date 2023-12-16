@@ -13,8 +13,7 @@
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
-          "options": {
-            "baseHref": "/nubankClone/",
+          "options": {            
             "outputPath": "www",
             "index": "src/index.html",
             "main": "src/main.ts",
