@@ -126,7 +126,7 @@ export class HomePage {
     this.renderer.setStyle(this.background.nativeElement, 'opacity',value ? value : this.initialStep === 0 ? '0' : '1' )
   }
 
-  fixedBlocks(): boolean {
+  fixedBlocks(): any {
     return this.swiping || this.initialStep === this.maxTranslate
   }
 
